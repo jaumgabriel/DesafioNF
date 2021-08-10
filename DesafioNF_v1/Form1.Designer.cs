@@ -35,13 +35,14 @@ namespace DesafioNF_v1
             this.exibirLivrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarLivrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gênerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.autoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarGênerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exibirGênerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarGênerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.autoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarAutoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exibirAutoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarAutoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.locarLivrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +63,8 @@ namespace DesafioNF_v1
             this.livroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastrarLivroToolStripMenuItem,
             this.exibirLivrosToolStripMenuItem,
-            this.buscarLivrosToolStripMenuItem});
+            this.buscarLivrosToolStripMenuItem,
+            this.locarLivrosToolStripMenuItem});
             this.livroToolStripMenuItem.Name = "livroToolStripMenuItem";
             this.livroToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.livroToolStripMenuItem.Text = "Livros";
@@ -96,6 +98,24 @@ namespace DesafioNF_v1
             this.gênerosToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.gênerosToolStripMenuItem.Text = "Gêneros";
             // 
+            // cadastrarGênerosToolStripMenuItem
+            // 
+            this.cadastrarGênerosToolStripMenuItem.Name = "cadastrarGênerosToolStripMenuItem";
+            this.cadastrarGênerosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.cadastrarGênerosToolStripMenuItem.Text = "Cadastrar gêneros";
+            // 
+            // exibirGênerosToolStripMenuItem
+            // 
+            this.exibirGênerosToolStripMenuItem.Name = "exibirGênerosToolStripMenuItem";
+            this.exibirGênerosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.exibirGênerosToolStripMenuItem.Text = "Exibir gêneros";
+            // 
+            // buscarGênerosToolStripMenuItem
+            // 
+            this.buscarGênerosToolStripMenuItem.Name = "buscarGênerosToolStripMenuItem";
+            this.buscarGênerosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.buscarGênerosToolStripMenuItem.Text = "Buscar gêneros";
+            // 
             // autoresToolStripMenuItem
             // 
             this.autoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -106,41 +126,29 @@ namespace DesafioNF_v1
             this.autoresToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.autoresToolStripMenuItem.Text = "Autores";
             // 
-            // cadastrarGênerosToolStripMenuItem
-            // 
-            this.cadastrarGênerosToolStripMenuItem.Name = "cadastrarGênerosToolStripMenuItem";
-            this.cadastrarGênerosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cadastrarGênerosToolStripMenuItem.Text = "Cadastrar gêneros";
-            // 
-            // exibirGênerosToolStripMenuItem
-            // 
-            this.exibirGênerosToolStripMenuItem.Name = "exibirGênerosToolStripMenuItem";
-            this.exibirGênerosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exibirGênerosToolStripMenuItem.Text = "Exibir gêneros";
-            // 
-            // buscarGênerosToolStripMenuItem
-            // 
-            this.buscarGênerosToolStripMenuItem.Name = "buscarGênerosToolStripMenuItem";
-            this.buscarGênerosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.buscarGênerosToolStripMenuItem.Text = "Buscar gêneros";
-            // 
             // cadastrarAutoresToolStripMenuItem
             // 
             this.cadastrarAutoresToolStripMenuItem.Name = "cadastrarAutoresToolStripMenuItem";
-            this.cadastrarAutoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastrarAutoresToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.cadastrarAutoresToolStripMenuItem.Text = "Cadastrar autores";
             // 
             // exibirAutoresToolStripMenuItem
             // 
             this.exibirAutoresToolStripMenuItem.Name = "exibirAutoresToolStripMenuItem";
-            this.exibirAutoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exibirAutoresToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.exibirAutoresToolStripMenuItem.Text = "Exibir autores";
             // 
             // buscarAutoresToolStripMenuItem
             // 
             this.buscarAutoresToolStripMenuItem.Name = "buscarAutoresToolStripMenuItem";
-            this.buscarAutoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.buscarAutoresToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.buscarAutoresToolStripMenuItem.Text = "Buscar autores";
+            // 
+            // locarLivrosToolStripMenuItem
+            // 
+            this.locarLivrosToolStripMenuItem.Name = "locarLivrosToolStripMenuItem";
+            this.locarLivrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.locarLivrosToolStripMenuItem.Text = "Locar livros";
             // 
             // Form1
             // 
@@ -174,6 +182,7 @@ namespace DesafioNF_v1
         private System.Windows.Forms.ToolStripMenuItem cadastrarAutoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exibirAutoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem buscarAutoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem locarLivrosToolStripMenuItem;
     }
 }
 
