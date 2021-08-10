@@ -12,7 +12,8 @@ Criar um sistema seguindo as seguintes obrigações:
 - Na tela de consulta deve haver dois botões onde um informará a locação do livro e outro informará a devolução do livro.
 - Para o front end pode utilizar um template bootstrap ou outro qualquer (a vontade).
 - O sistema deve ser feito utilizando estrutura orientada a objetos
-- Utilizar banco de dados MySQL e disponibilizar sua estrutura juntamente com o projeto
+- Utilizar banco de dados MySQL e disponibilizar sua estrutura juntamente com o projet
+ 
 Diferenciais:
 
 - Implementar paginação na tela de consulta.
