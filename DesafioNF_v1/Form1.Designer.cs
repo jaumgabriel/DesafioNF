@@ -69,14 +69,14 @@ namespace DesafioNF_v1
             // cadastrarLivroToolStripMenuItem
             // 
             this.cadastrarLivroToolStripMenuItem.Name = "cadastrarLivroToolStripMenuItem";
-            this.cadastrarLivroToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.cadastrarLivroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastrarLivroToolStripMenuItem.Text = "Cadastrar livro";
             this.cadastrarLivroToolStripMenuItem.Click += new System.EventHandler(this.cadastrarLivroToolStripMenuItem_Click);
             // 
             // locarLivrosToolStripMenuItem
             // 
             this.locarLivrosToolStripMenuItem.Name = "locarLivrosToolStripMenuItem";
-            this.locarLivrosToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.locarLivrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.locarLivrosToolStripMenuItem.Text = "Locar livros";
             // 
             // gênerosToolStripMenuItem
@@ -90,7 +90,7 @@ namespace DesafioNF_v1
             // cadastrarGênerosToolStripMenuItem
             // 
             this.cadastrarGênerosToolStripMenuItem.Name = "cadastrarGênerosToolStripMenuItem";
-            this.cadastrarGênerosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.cadastrarGênerosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastrarGênerosToolStripMenuItem.Text = "Cadastrar gêneros";
             // 
             // autoresToolStripMenuItem
@@ -104,7 +104,7 @@ namespace DesafioNF_v1
             // cadastrarAutoresToolStripMenuItem
             // 
             this.cadastrarAutoresToolStripMenuItem.Name = "cadastrarAutoresToolStripMenuItem";
-            this.cadastrarAutoresToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.cadastrarAutoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastrarAutoresToolStripMenuItem.Text = "Cadastrar autores";
             // 
             // button1
