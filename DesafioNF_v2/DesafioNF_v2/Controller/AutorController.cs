@@ -22,7 +22,7 @@ namespace DesafioNF_v2.Controller
         {
             janelaCadastroAutor.Close();
         }
-        public static void Cadastrar(string codigo, string nome)
+        public static void Cadastrar(int codigo, string nome)
         {
             AutorModel novoAutor = new AutorModel();
             novoAutor.Codigo = codigo;
@@ -57,9 +57,14 @@ namespace DesafioNF_v2.Controller
         {
 
         }
-        public static void Listar()
+        public static void Listar(System.Windows.Forms.DataGridView elementoVisualAutor)
         {
-
+            /*
+             * Elemento que falta implementar.
+             * Elemento que busca as informações que precisamos no DB.
+             
+            elementoVisualAutor.DataSource = AutorModel.Buscar();
+            */
         }
     }
 }

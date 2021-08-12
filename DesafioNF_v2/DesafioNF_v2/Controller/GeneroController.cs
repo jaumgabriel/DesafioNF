@@ -23,7 +23,7 @@ namespace DesafioNF_v2.Controller
         {
             janelaCadastroGenero.Close();
         }
-        public static void Cadastrar(string codigo, string genero)
+        public static void Cadastrar(int codigo, string genero)
         {
             GeneroModel novoGenero = new GeneroModel();
             novoGenero.Codigo = codigo;

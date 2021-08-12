@@ -8,8 +8,8 @@ namespace DesafioNF_v2.Model
 {
     class GeneroModel
     {
-        private string codigo;
-        public string Codigo
+        private int codigo;
+        public int Codigo
         {
             get { return codigo; }
             set { codigo = Codigo; }

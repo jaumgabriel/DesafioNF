@@ -43,7 +43,9 @@ namespace DesafioNF_v2
             this.removerGênerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarAutoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.removerAutoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -57,7 +59,7 @@ namespace DesafioNF_v2
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(164, 54);
+            this.button2.Location = new System.Drawing.Point(12, 137);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(146, 77);
             this.button2.TabIndex = 1;
@@ -66,12 +68,13 @@ namespace DesafioNF_v2
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(316, 54);
+            this.button3.Location = new System.Drawing.Point(12, 220);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(146, 77);
             this.button3.TabIndex = 2;
             this.button3.Text = "Listar autores";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // menuStrip1
             // 
@@ -82,7 +85,7 @@ namespace DesafioNF_v2
             this.ajudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(475, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(821, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -93,7 +96,7 @@ namespace DesafioNF_v2
             this.removerLivrosToolStripMenuItem});
             this.livorsToolStripMenuItem.Name = "livorsToolStripMenuItem";
             this.livorsToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.livorsToolStripMenuItem.Text = "Livors";
+            this.livorsToolStripMenuItem.Text = "Livros";
             // 
             // gênerosToolStripMenuItem
             // 
@@ -157,12 +160,21 @@ namespace DesafioNF_v2
             this.removerAutoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.removerAutoresToolStripMenuItem.Text = "Remover autores";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(175, 40);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(583, 310);
+            this.dataGridView1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(475, 159);
+            this.ClientSize = new System.Drawing.Size(821, 368);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -176,6 +188,7 @@ namespace DesafioNF_v2
             this.Text = "Biblioteca_System";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,6 +210,7 @@ namespace DesafioNF_v2
         private System.Windows.Forms.ToolStripMenuItem cadastrarAutoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem removerAutoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

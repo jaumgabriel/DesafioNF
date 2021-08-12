@@ -11,8 +11,8 @@ namespace DesafioNF_v2.Model
         /*  Atributos responsaveis por identificar o Autor.
             Cada autor tem um codigo e um nome.
         */
-        private string codigo;
-        public string Codigo
+        private int codigo;
+        public int Codigo
         {
             get { return codigo;}
             set {codigo = value;}

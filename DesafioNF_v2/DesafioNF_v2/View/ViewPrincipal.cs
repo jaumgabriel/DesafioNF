@@ -28,5 +28,10 @@ namespace DesafioNF_v2
         {
             GeneroController.IniciarCadastro();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AutorController.Listar(dataGridViewl);
+        }
     }
 }
