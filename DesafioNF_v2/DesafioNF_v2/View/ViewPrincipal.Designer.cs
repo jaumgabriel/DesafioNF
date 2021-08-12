@@ -57,7 +57,7 @@ namespace DesafioNF_v2
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(173, 54);
+            this.button2.Location = new System.Drawing.Point(164, 54);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(146, 77);
             this.button2.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace DesafioNF_v2
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(325, 54);
+            this.button3.Location = new System.Drawing.Point(316, 54);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(146, 77);
             this.button3.TabIndex = 2;
@@ -82,7 +82,7 @@ namespace DesafioNF_v2
             this.ajudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(480, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(475, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -136,6 +136,7 @@ namespace DesafioNF_v2
             this.cadastrarGênerosToolStripMenuItem.Name = "cadastrarGênerosToolStripMenuItem";
             this.cadastrarGênerosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastrarGênerosToolStripMenuItem.Text = "Cadastrar gêneros";
+            this.cadastrarGênerosToolStripMenuItem.Click += new System.EventHandler(this.cadastrarGênerosToolStripMenuItem_Click);
             // 
             // removerGênerosToolStripMenuItem
             // 
@@ -161,7 +162,7 @@ namespace DesafioNF_v2
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(480, 281);
+            this.ClientSize = new System.Drawing.Size(475, 159);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

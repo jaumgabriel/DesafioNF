@@ -23,5 +23,10 @@ namespace DesafioNF_v2
         {
             AutorController.IniciarCadastro();
         }
+
+        private void cadastrarGênerosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GeneroController.IniciarCadastro();
+        }
     }
 }

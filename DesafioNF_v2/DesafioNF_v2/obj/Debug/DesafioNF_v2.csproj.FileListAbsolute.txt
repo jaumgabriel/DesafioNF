@@ -9,3 +9,5 @@ C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\bin\Debug\DesafioNF_v
 C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\bin\Debug\DesafioNF_v2.pdb
 C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.exe
 C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.pdb
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.View.ViewGêneroCadastro.resources
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.View.ViewLivroCadastro.resources

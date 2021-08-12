@@ -47,12 +47,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\AutorController.cs" />
+    <Compile Include="Controller\GeneroController.cs" />
+    <Compile Include="Controller\LivroController.cs" />
     <Compile Include="Model\AutorModel.cs" />
+    <Compile Include="Model\GeneroModel.cs" />
+    <Compile Include="Model\LivroModel.cs" />
     <Compile Include="View\ViewAutorCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\ViewAutorCadastro.Designer.cs">
       <DependentUpon>ViewAutorCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewGêneroCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewGêneroCadastro.Designer.cs">
+      <DependentUpon>ViewGêneroCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewLivroCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewLivroCadastro.Designer.cs">
+      <DependentUpon>ViewLivroCadastro.cs</DependentUpon>
     </Compile>
     <Compile Include="View\ViewPrincipal.cs">
       <SubType>Form</SubType>
@@ -64,6 +80,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="View\ViewAutorCadastro.resx">
       <DependentUpon>ViewAutorCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewGêneroCadastro.resx">
+      <DependentUpon>ViewGêneroCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewLivroCadastro.resx">
+      <DependentUpon>ViewLivroCadastro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ViewPrincipal.resx">
       <DependentUpon>ViewPrincipal.cs</DependentUpon>
