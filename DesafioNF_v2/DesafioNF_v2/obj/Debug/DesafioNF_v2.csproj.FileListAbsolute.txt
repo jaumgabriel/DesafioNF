@@ -1,0 +1,11 @@
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.csproj.AssemblyReference.cache
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.View.ViewAutorCadastro.resources
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.Form1.resources
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.Properties.Resources.resources
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.csproj.GenerateResource.cache
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.csproj.CoreCompileInputs.cache
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\bin\Debug\DesafioNF_v2.exe.config
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\bin\Debug\DesafioNF_v2.exe
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\bin\Debug\DesafioNF_v2.pdb
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.exe
+C:\Users\jaumg\Desktop\DesafioNF\DesafioNF_v2\DesafioNF_v2\obj\Debug\DesafioNF_v2.pdb

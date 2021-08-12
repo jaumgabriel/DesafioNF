@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DesafioNF_v2
+namespace DesafioNF_v2.View
 {
-    public partial class Form1 : Form
+    public partial class ViewGêneroCadastro : Form
     {
-        public Form1()
+        public ViewGêneroCadastro()
         {
             InitializeComponent();
         }
